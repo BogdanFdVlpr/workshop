@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import {CartService} from "../../services/cart.service";
 import {Product} from "../../models/product/product.module";
 
-const ROWS_HEIGHT: {[id: number]: number} = { 1: 400, 2: 335, 4: 350}
+const ROWS_HEIGHT: {[id: number]: number} = { 1: 400, 3: 335, 4: 350}
 
 @Component({
   selector: 'app-home',
